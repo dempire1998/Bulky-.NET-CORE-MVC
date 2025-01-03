@@ -12,7 +12,7 @@ namespace BulkyWeb.Controllers
         public CategoryController(ApplicationDbContext db)
 
         {
-            _db = db;
+            _db = db;     
         }
         public IActionResult Index()
         {
